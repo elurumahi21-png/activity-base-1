@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ananya Rao – Student Portfolio</title>
+  <meta name="description" content="Portfolio of Ananya Rao, a computer science student building useful web and data projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Ananya Rao</a>
+    <nav aria-label="Main">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Profile -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>I turn messy problems into <mark>small, working tools.</mark></h1>
+        <p class="lead">
+          I'm a third-year Computer Science student at Andhra University. I build web apps and
+          data projects, and I like explaining how they work to people who've never coded.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">See my projects</a>
+          <a class="btn" href="resume.pdf" download>Download résumé</a>
+        </div>
+      </div>
+
+      <aside class="profile-card" aria-label="Profile summary">
+        <div class="avatar" role="img" aria-label="Portrait placeholder">AR</div>
+        <dl>
+          <dt>Studying</dt><dd>B.Tech, Computer Science (2023–2027)</dd>
+          <dt>Based in</dt><dd>Vijayawada, India</dd>
+          <dt>CGPA</dt><dd>8.9 / 10</dd>
+          <dt>Looking for</dt><dd>Summer 2027 internships</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Python</li><li>JavaScript</li><li>Java</li><li>SQL</li><li>C</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul class="chips">
+            <li>HTML</li><li>CSS</li><li>React</li><li>Node.js</li><li>Flask</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data and tools</h3>
+          <ul class="chips">
+            <li>Pandas</li><li>Matplotlib</li><li>MySQL</li><li>Git and GitHub</li><li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Working with people</h3>
+          <ul class="chips">
+            <li>Team leadership</li><li>Public speaking</li><li>Technical writing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="project featured">
+        <div class="project-meta">
+          <h3>CampusBus Tracker</h3>
+          <p class="stack">React, Node.js, MySQL</p>
+        </div>
+        <div class="project-body">
+          <p>
+            A live bus-timing app for my college. Students see where each bus is and when it
+            reaches their stop. Around 400 students use it every week.
+          </p>
+          <p class="links"><a href="#">View code</a> <a href="#">Live demo</a></p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <h3>Crop Price Predictor</h3>
+          <p class="stack">Python, Pandas, scikit-learn</p>
+        </div>
+        <div class="project-body">
+          <p>
+            Forecasts weekly market prices for five local crops from five years of public data,
+            with an average error under 8%.
+          </p>
+          <p class="links"><a href="#">View code</a></p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <h3>StudyBuddy Planner</h3>
+          <p class="stack">HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project-body">
+          <p>
+            A revision planner that spreads topics across the days left before exams and
+            reminds you what to review today.
+          </p>
+          <p class="links"><a href="#">View code</a> <a href="#">Live demo</a></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+      <h2>Achievements</h2>
+      <ol class="timeline">
+        <li>
+          <time datetime="2026-03">March 2026</time>
+          <p><strong>Winner, Smart India Hackathon (college round).</strong> Led a team of four to
+          build a waste-collection route planner.</p>
+        </li>
+        <li>
+          <time datetime="2025-11">November 2025</time>
+          <p><strong>Top 5%, NPTEL Data Structures course.</strong> Earned an elite certificate with
+          a score of 91%.</p>
+        </li>
+        <li>
+          <time datetime="2025-08">August 2025</time>
+          <p><strong>Open-source contributor.</strong> Had three documentation and bug-fix pull
+          requests merged into public repositories.</p>
+        </li>
+        <li>
+          <time datetime="2024-12">December 2024</time>
+          <p><strong>Dean's List.</strong> Ranked in the top 10 of my department for the year.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div>
+        <h2>Contact</h2>
+        <p class="lead">
+          Have an internship, a project idea, or a question? I reply within two days.
+        </p>
+        <ul class="contact-list">
+          <li><a href="mailto:ananya.rao@example.com">ananya.rao@example.com</a></li>
+          <li><a href="https://github.com/">github.com/ananyarao</a></li>
+          <li><a href="https://linkedin.com/">linkedin.com/in/ananyarao</a></li>
+        </ul>
+      </div>
+
+      <form action="mailto:ananya.rao@example.com" method="post" enctype="text/plain">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Ananya Rao. Built with plain HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
